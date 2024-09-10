@@ -6,5 +6,5 @@ Tool to convert YouTube videos to locally downloadable files.
 
 Install dependencies:
 ```console
-sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install libcurl4-openssl-dev youtube-dl
 ```
