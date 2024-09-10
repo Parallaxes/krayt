@@ -2,6 +2,9 @@
 Tool to convert YouTube videos to locally downloadable files.
 (Totally not just a wrapper of an already functioning library PyTube with a fancy CLI and PATH support)
 
+## To-Do:
+- Add Windows support
+- Write libraries from scratch! Using a pre-built library to do everything here is perhaps a bit lame
 ## Set Up and Installation
 > Make sure you have `python3` (should already be installed) and `pip`.
 > You can install these using:
