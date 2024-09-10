@@ -51,5 +51,4 @@ Available streams:
 Enter the number of the stream you want to download: 3
 Video downloaded successfully to /home/parallaxis/Downloads/krayt
 ```
-
-![Watch Video](https://github.com/Parallaxes/krayt/raw/main/assets/kraytDemo.mov)
+![Krayt Demo](https://github.com/Parallaxes/krayt/raw/main/kraytDemo.gif)
