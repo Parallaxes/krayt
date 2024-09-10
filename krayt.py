@@ -20,7 +20,7 @@ def main():
     # Download the video
     try:
         yt = YouTube(args.url)
-        streams = yt.streams.filter(file_extension='mp4').all()
+        streams = yt.streams.filter(file_extension='mp4')
         
         # List available streams
         print("Available streams:")
