@@ -14,7 +14,7 @@ Run the setup script
 cd krayt/
 ./setup.sh
 ```
-It will prompt to add to system PATH (support for running the standalone command). If you don't want to do this, just install pytube manually.
+It will prompt to add to system PATH (support for running the standalone command). If you don't want to do this, just install pytube manually. You will not, however, be able to run it as a standalone command.
 
 
 ## Usage
@@ -27,7 +27,7 @@ krayt [URL]
 Downloaded files can be found under `~/Downloads/krayt/`
 
 ### Example Usage
-> Ignore running as root, was testing PATH variables.
+
 ```console
 parallaxis@ASOOS:~$ krayt https://www.youtube.com/watch?v=vNh1KBRluC0
 Available streams:
