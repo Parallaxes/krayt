@@ -20,8 +20,19 @@ def main():
     # Download the video
     try:
         yt = YouTube(args.url)
-        stream = yt.streams.filter(file_extension='mp4').first()
-        stream.download(output_path=download_dir)
+        streams = yt.streams.filter(file_extension='mp4').all()
+        
+        # List available streams
+        print("Available streams:")
+        for i, stream in enumerate(streams):
+            print(f"{i}: {stream.resolution} - {stream.mime_type}")
+
+        # Prompt user to select a stream
+        choice = int(input("Enter the number of the stream you want to download: "))
+        selected_stream = streams[choice]
+
+        # Download the selected stream
+        selected_stream.download(output_path=download_dir)
         print(f"Video downloaded successfully to {download_dir}")
     except Exception as e:
         print(f"An error occurred: {e}")
