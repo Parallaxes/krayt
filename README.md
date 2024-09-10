@@ -52,4 +52,4 @@ Enter the number of the stream you want to download: 3
 Video downloaded successfully to /home/parallaxis/Downloads/krayt
 ```
 
-![Watch Video](https://github.com/Parallaxes/krayt/raw/main/assets/kraytDemo.mp4)
+![Watch Video](https://github.com/Parallaxes/krayt/raw/main/assets/kraytDemo.mov)
