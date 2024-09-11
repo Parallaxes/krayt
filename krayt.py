@@ -1,7 +1,5 @@
-#!/usr/bin/env python3
-
-import argparse
 import os
+import argparse
 from pytubefix import YouTube
 
 def main():
@@ -36,7 +34,8 @@ def main():
 
         # Download the selected stream
         selected_stream.download(output_path=download_dir)
-        print(f"Video downloaded successfully to {download_dir}")
+        print("Download complete.")
+        print(f"Video downloaded to: {download_dir}")
     except Exception as e:
         print(f"An error occurred: {e}")
 

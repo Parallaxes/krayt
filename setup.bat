@@ -22,13 +22,7 @@ goto :eof
 REM Install dependencies
 call :install_dependencies
 
-REM Prompt for approval to add krayt to PATH
-set /p choice="Do you want to add 'krayt' to your system PATH? (y/n): "
-if /i "%choice%"=="y" (
-    call :add_to_path
-) else if /i "%choice%"=="n" (
-    echo You chose not to add 'krayt' to the PATH. You can still run it using 'python krayt.py'.
-) else (
-    echo Invalid choice. Please run the script again and choose y or n.
-)
+REM Add krayt to PATH
+call :add_to_path
+
 pause
