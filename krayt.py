@@ -10,8 +10,11 @@ def main():
     parser.add_argument('url', type=str, help='The URL of the YouTube video')
     args = parser.parse_args()
 
-    # Define the download directory
-    download_dir = os.path.join(os.path.expanduser('~'), 'Downloads', 'krayt')
+    # Define the download directory based on the operating system
+    if os.name == 'nt':  # Windows
+        download_dir = os.path.join(os.environ['USERPROFILE'], 'Downloads', 'krayt')
+    else:  # Unix-like (Linux, macOS, etc.)
+        download_dir = os.path.join(os.path.expanduser('~'), 'Downloads', 'krayt')
     
     # Create the directory if it doesn't exist
     if not os.path.exists(download_dir):
