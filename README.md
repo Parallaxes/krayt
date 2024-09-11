@@ -12,6 +12,7 @@ Tool to convert YouTube videos to locally downloadable files.
 git clone https://github.com/Parallaxes/krayt.git
 ```
 
+### Set Up
 > Make sure you have `python3` (should already be installed) and `pip`.
 
 **For Ubuntu/Debian:**
