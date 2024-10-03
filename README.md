@@ -19,6 +19,7 @@ git clone https://github.com/Parallaxes/krayt.git
 > You can install these using:
 ```console
 sudo apt install python3 python3-pip
+python3 pip install pytubefix
 ```
 
 **For Windows:**
@@ -27,6 +28,10 @@ sudo apt install python3 python3-pip
 ```console
 python --version
 pip --version
+```
+> Then install `pytubefix`
+```console
+pip install pytubefix
 ```
 
 ### Run the setup script
